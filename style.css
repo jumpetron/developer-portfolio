@@ -7,11 +7,15 @@ h1{
     font-size: 50px;
 }
 
+h2{
+    font-size: 40px;
+}
+
 .name-style{
     color: orange;
 }
 
-section{
+.flexible-container{
     display: flex;
 }
 
@@ -48,7 +52,6 @@ section{
     width: 50%;
     margin-right: 10%;
     margin-left: 10%;
-    margin-top: 20px;
     text-align: justify;
 }
 
@@ -61,4 +64,59 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    margin-top: 20px;
+}
+
+.download-button{
+    text-decoration: none;
+    font-weight: 700;
+    color: #fff;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    border-radius: 7px;
+}
+
+.download-button:hover{
+    background-image: linear-gradient(to right, rgb(119, 56, 217), rgb(216, 128, 238));
+}
+
+.experience-items{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px 20px 40px 20px;
+    box-shadow: 10px 10px 40px gray;
+    cursor: pointer;
+    border-radius: 8px;
+    
+}
+
+.experience-area{
+    height: 600px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+
+
+.subheading{
+    color: orange;
+}
+
+#experience-items-first{
+    border-image: linear-gradient(#3740c0, #31b3a8);
+    border-image-slice: 1;
+    border-left: 8px solid;
+    
+}
+
+#experience-items-second{
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+    border-left: 8px solid;
+}
+
+footer p{
+    text-align: center;
 }
