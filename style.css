@@ -34,13 +34,13 @@ h2{
     text-decoration: none;
     font-weight: 700;
     color: #fff;
-    background-image: linear-gradient(orange, tomato);
+    background-image: linear-gradient(#19332B, rgb(21, 128, 104));
     padding: 10px 40px;
     border-radius: 7px;
 }
 
 .hire-button:hover{
-    background-image: linear-gradient(to right, rgb(119, 56, 217), rgb(216, 128, 238));
+    background-image: linear-gradient(to right, rgb(8, 121, 121), rgb(63, 121, 118));
 }
 
 .top-banner{
@@ -71,17 +71,17 @@ h2{
     text-decoration: none;
     font-weight: 700;
     color: #fff;
-    background-image: linear-gradient(orange, tomato);
+    background-image: linear-gradient(rgb(12, 66, 57), rgb(62, 139, 129));
     padding: 10px 40px;
     border-radius: 7px;
 }
 
 .download-button:hover{
-    background-image: linear-gradient(to right, rgb(119, 56, 217), rgb(216, 128, 238));
+    background-image: linear-gradient(to right, rgb(12, 100, 93), rgb(128, 231, 238));
 }
 
 .experience-items{
-    width: 40%;
+    width: 60%;
     margin-left: 5%;
     margin-right: 5%;
     padding: 20px 20px 40px 20px;
@@ -95,7 +95,7 @@ h2{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
-    padding-bottom: 150px;
+    padding-bottom: 40px;
 }
 
 .subheading{
