@@ -92,13 +92,11 @@ h2{
 }
 
 .experience-area{
-    height: 600px;
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
-    
+    padding-bottom: 150px;
 }
-
 
 .subheading{
     color: orange;
@@ -108,7 +106,6 @@ h2{
     border-image: linear-gradient(#3740c0, #31b3a8);
     border-image-slice: 1;
     border-left: 8px solid;
-    
 }
 
 #experience-items-second{
